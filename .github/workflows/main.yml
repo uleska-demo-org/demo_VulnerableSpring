@@ -24,4 +24,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run Uleska automation
-        run: python3 ${GITHUB_WORKSPACE}/.github/uleska-automate.py --application_name uleska-demo-org-demo_VulnerableSpring --version_name v1 --token c64Ca28whEAIkFYlzO8clRutrlwVws2pFRwEz09Pm9I --test_and_compare
+        run: python3 ${GITHUB_WORKSPACE}/.github/uleska-automate.py --uleska_host https://uleska-live-one.uleska.com/ --application_name uleska-demo-org-demo_VulnerableSpring --version_name v1 --token c64Ca28whEAIkFYlzO8clRutrlwVws2pFRwEz09Pm9I --test_and_compare
